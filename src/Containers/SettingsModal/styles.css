@@ -1,0 +1,41 @@
+.SettingsModal {
+}
+
+.SettingsModal__open {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.75rem;
+  height: 2.75rem;
+  background-color: transparent;
+
+  border: none;
+  border-radius: 50%;
+  
+  transition: background-color 0.2s ease-out;
+}
+
+.SettingsModal__open:hover,
+.SettingsModal__open:focus,
+.SettingsModal__open:active {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.SettingsModal__logout {
+  font-size: 1.25rem;
+  font-weight: 500;
+
+  background: none;
+  border: none;
+
+  transition: color 0.2s ease-out;
+}
+
+.SettingsModal__logout:hover,
+.SettingsModal__logout:focus {
+  outline: none;
+  color: hsl(227, 99%, 65%);
+}
